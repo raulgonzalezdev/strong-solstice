@@ -1,22 +1,45 @@
 ---
-title: Duvet Genius
+title: Central IT
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  Professional Experience at Central IT - Full Stack Developer.
 tags:
-  - Design
+  - React
   - Dev
-  - Branding
+  - Django
+  - MongoDB
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+> 👋 Professional Experience at Central IT (Dec 2021 - Apr 2023)
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+As a **Full Stack Developer** at Central IT, I was deeply involved in several innovative projects, leveraging my extensive skills in a variety of technologies.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+### 🚀 Key Projects
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#### Teleport Project
+- **Role**: Main Full Stack Developer
+- **Tech Stack**: Next.js, Django, MongoDB
+- **Achievements**: Developed a software for project management and remote work control, showcasing my proficiency in full-stack development and database management.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+#### UNIQ Facial Recognition Project
+- **Role**: Full Stack Developer
+- **Tech Stack**: React, Next.js, React Native (mobile app), Django, PostgreSQL
+- **Achievements**: Contributed to a facial recognition app for secure login in enterprise applications, demonstrating my skills in front-end development and database integration.
+
+#### Reveal Project
+- **Role**: Full Stack Developer
+- **Tech Stack**: React, Next.js, Django, MongoDB, Redis, MongoDB Query Language (MQL), Mongoose
+- **Achievements**: Participated in developing a platform for application control and source code writing in Streamlit, enhancing my expertise in database performance optimization and full-stack development.
+
+#### 💼 Skills and Technologies
+- Proficient in **Redis, MongoDB, Mongoose, and MQL** for database management and optimization.
+- Skilled in **Ruby on Rails and Vue.js** for robust web application development.
+- Experienced in **React.js** and **Mobile App Development**, focusing on user-friendly and responsive design.
+- Adaptability in various tech environments, demonstrating versatility and problem-solving abilities.
+- Leadership in multidisciplinary teams, showing strong team coordination and project management skills.
+
+#### 🌟 Professional Growth
+At Central IT, my journey was marked by significant contributions to key projects, enhancing my full-stack development capabilities and leadership skills in a fast-paced, technology-driven environment.
