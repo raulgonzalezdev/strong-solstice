@@ -13,7 +13,7 @@ tags:
 
 ---
 
-> 👋 Professional Experience at Central IT (Dec 2021 - Apr 2023)
+> 👋 Professional Experience at Central IT (Dec 2020 - Apr 2023)
 
 As a **Full Stack Developer** at Central IT, I was deeply involved in several innovative projects, leveraging my extensive skills in a variety of technologies.
 
