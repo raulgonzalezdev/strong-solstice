@@ -3,29 +3,30 @@ services:
   app:
     build: .
     restart: unless-stopped
-    ports:  # Cambia 'expose' por 'ports' para hacer el puerto accesible fuera de Docker.
+    ports:
       - "4321:4321"
     environment:
-        - HOST=0.0.0.0
+      - HOST=0.0.0.0
+
   nginx:
     image: nginx:latest
     ports:
       - "80:80"
       - "443:443"
-
-  code-server:
-    image: codercom/code-server:latest
-    container_name: code-server
-    environment:
-      PASSWORD: "ML!gsx90l02"  # Establece la contraseña para code-server
     volumes:
-      - "./tu-directorio-proyecto:/home/coder/project"  # Ajusta la ruta al directorio de tu proyecto
-    ports:
-      - "8443:8080"  # Expone el puerto 8443 del host al puerto 8080 del contenedor
-   
-   volumes:
       - ./nginx:/etc/nginx/conf.d
       - /etc/letsencrypt:/etc/letsencrypt:ro
     depends_on:
       - app
     restart: unless-stopped
+
+  code-server:
+    image: codercom/code-server:latest
+    container_name: code-server
+    environment:
+      - PASSWORD=ML!gsx90l02  # Establece la contraseña para code-server
+    volumes:
+      - "./tu-directorio-proyecto:/home/coder/project"  # Ajusta la ruta al directorio de tu proyecto
+    ports:
+      - "8443:8080"  # Expone el puerto 8443 del host al puerto 8080 del contenedor
+
