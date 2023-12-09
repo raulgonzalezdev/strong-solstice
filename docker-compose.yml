@@ -3,8 +3,8 @@ services:
   app:
     build: .
     restart: unless-stopped
-    expose:
-      - "4321"
+    ports:  # Cambia 'expose' por 'ports' para hacer el puerto accesible fuera de Docker.
+      - "4321:4321"
     environment:
       - NODE_ENV=production
   nginx:
