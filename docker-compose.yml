@@ -26,7 +26,7 @@ services:
     environment:
       - PASSWORD=ML!gsx90l02  # Establece la contraseña para code-server
     volumes:
-      - "./tu-directorio-proyecto:/home/coder/project"  # Ajusta la ruta al directorio de tu proyecto
+      - "/var/www/webapp/code:/home/coder/project"  # A
     ports:
       - "8443:8080"  # Expone el puerto 8443 del host al puerto 8080 del contenedor
 
