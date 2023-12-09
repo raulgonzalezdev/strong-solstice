@@ -22,6 +22,7 @@ services:
 
   code-server:
     image: codercom/code-server:latest
+    user: "1001:1002"  # Reemplaza con tu UID y GID reales
     container_name: code-server
     environment:
       - PASSWORD=ML!gsx90l02  # Establece la contraseña para code-server
