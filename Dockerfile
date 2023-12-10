@@ -9,8 +9,6 @@ COPY package*.json ./
 COPY tsconfig.json ./
 COPY astro.config.mjs ./
 
-RUN npm install -g astro
-
 
 # Instalar las dependencias del proyecto
 RUN npm install
