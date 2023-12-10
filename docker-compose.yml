@@ -5,15 +5,15 @@ services:
     build: .
     container_name: app
     image: astroapp
-    #volumes:
-     # - /var/www/webapp/strong-solstice:/app
+    volumes:
+      - /var/www/webapp/strong-solstice:/app
     ports:
       - "4321:4321" #
     environment:
       - HOST=0.0.0.0
     restart: unless-stopped
-    #networks:
-     # - webnet
+    networks:
+      - webnet
 
   nginx:
     image: nginx:latest
@@ -26,8 +26,8 @@ services:
       - /var/www/webapp/nginx/conf.d:/etc/nginx/conf.d 
       - /etc/letsencrypt:/etc/letsencrypt:ro
     restart: unless-stopped
-    #networks:
-     # - webnet
+    networks:
+      - webnet
 
  
 
@@ -43,10 +43,10 @@ services:
       - /var/www/webapp:/home/coder/projectos # Ajusta según tu necesidad
     ports:
       - "8443:8080" # Expone el puerto 8443 del host al puerto 8080 del contenedor
-    #networks:
-     # - webnet
+    networks:
+      - webnet
 
-#networks:
- # webnet:
-  #  external: true
+networks:
+  webnet:
+    external: true
 
