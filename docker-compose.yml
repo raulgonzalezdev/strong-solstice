@@ -5,12 +5,15 @@ services:
     restart: unless-stopped
     environment:
       - HOST=0.0.0.0
+    ports:
+      - "4321:4321" # Asegúrate de cambiar "4321" por el puerto que tu aplicación necesita exponer
     networks:
       - webnet
 
 networks:
   webnet:
     external: true
+
 
 
   # nginx:
