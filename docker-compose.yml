@@ -43,8 +43,8 @@ services:
       - /var/www/webapp:/home/coder/projectos # Ajusta según tu necesidad
     ports:
       - "8443:8080" # Expone el puerto 8443 del host al puerto 8080 del contenedor
-    networks:
-      - webnet
+    #networks:
+     # - webnet
 
 #networks:
  # webnet:
